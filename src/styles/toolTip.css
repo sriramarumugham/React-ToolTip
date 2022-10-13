@@ -1,3 +1,5 @@
+/* tool tip designs */
+
 .toolTipContainer {
     display: flex;
     flex-direction: column;
@@ -7,6 +9,10 @@
     z-index: 1;
     min-width: 200px;
   }
+
+
+  /* arrows desingns */
+
   .arrows {
     border: 15px solid transparent;
     margin: 0px auto;
@@ -27,6 +33,10 @@
     border-left: 0px;
     border-right: 15px solid rgb(45, 44, 44);
   }
+
+
+  /*tool tip body container desings  */
+  
   .toolTipBodyContainer {
     display: flex;
     margin: 0px;

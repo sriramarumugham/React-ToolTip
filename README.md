@@ -1,5 +1,49 @@
 # Getting Started with Create React App
 
+hosted on vercel: https://react-tooltip-kappa.vercel.app/
+
+This is a tool tip app , designed based on the progress features in gitHub and Leetcode
+
+## How to use this app
+1) hover over any tool you will get the tool tip of the tool
+
+## components used
+1) Tool - any button or a container you need a tip
+2) Tool Tip- the the component appear when you hover over a tool 
+
+## Tool Component
+
+1)a simple div square style  with a background color and some information like commit
+
+## Tool Tip Component
+
+1) This componnet has 4 divs with 4 direction 
+   1) Top arrow is displayed based on direction prop = 0
+   2) Right arrow is displayed based on direction prop = 1
+   1) Left arrow is displayed based on direction prop = 2
+   1) Down arrow is displayed based on direction prop = 3
+
+   Style for arrow
+   1) margin on two side wiht a color and opposite side with transparent style
+
+    
+2) The body div displays the information passed as a props , to make it reusable for any tool
+
+
+## hooks used
+1) use state - 
+     1)to store the hover on and off feature 
+     2) to store the direction in a sate and pass as props to  tool and tool tip
+
+## styles
+1) css only 
+
+## imporovements to the app
+
+1) animations
+2) creating multi page features  with reusable tooltip components
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

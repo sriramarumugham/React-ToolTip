@@ -6,10 +6,11 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* border: 1px solid red; */
   height: 90vh;
   text-align: center;
 }
+
+/* controll button desings */
 #controlls {
   border: 1px solid white;
   margin-top: 15vh;
@@ -23,6 +24,7 @@
   margin: 15vh auto 0px auto;
 }
 
+/* outer tools container */
 #toolsContainer {
   display: flex;
   flex-direction: row;
