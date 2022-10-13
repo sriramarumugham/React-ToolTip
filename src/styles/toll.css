@@ -1,0 +1,16 @@
+.toolOuterContainer {
+    position: relative;
+    margin: 5px;
+    padding: 1px;
+    border: 1px solid transparent;
+    background-color: transparent;
+  }
+  
+  .tollContainer {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border: 1px solid transparent;
+    background-color: rgb(8, 13, 8);
+  }
+  

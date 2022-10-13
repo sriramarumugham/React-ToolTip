@@ -1,0 +1,37 @@
+.App {
+  margin: auto;
+  min-width: 400px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+  height: 90vh;
+  text-align: center;
+}
+#controlls {
+  border: 1px solid white;
+  margin-top: 15vh;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10px;
+  border-radius: 5px;
+  width: 50%;
+  margin: 15vh auto 0px auto;
+}
+
+#toolsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  padding: 20px 10px;
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+}
